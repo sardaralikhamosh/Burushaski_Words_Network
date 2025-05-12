@@ -441,6 +441,5 @@ if __name__ == "__main__":
                 pip.main(['install', package])
     except Exception as e:
         print(f"Error installing packages: {e}")
-
     # Run the main function
     main()
